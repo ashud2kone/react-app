@@ -1,0 +1,63 @@
+body {
+  animation: changeBg 5s infinite alternate linear;
+  /* background-color: #0b0b6d; */
+}
+@keyframes changeBg {
+  0%{
+    background: #ee6055;
+  }
+  25%{
+    background: #60d394;
+  }
+  50%{
+    background: #aaf683;
+  }
+  75%{
+    background: #ffd97d;
+  }
+  100%{
+    background: #ff9b85;
+  }
+}
+
+.App{
+  background-color: #000608d8;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+#to-do-form input{
+  animation: changeBg 5s infinite alternate linear;
+  /* background-color: rgb(36, 7, 7); */
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 19px;
+  border-radius:10px;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#to-do-form input::placeholder{
+  color: rgba(255,255,255, 0.5);
+
+}
+#to-do-form input:focus, #to-do-form button:focus{
+  outline: none;
+}
+#to-do-form button{
+  animation: changeBg 5s infinite alternate linear;
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  /* background-color: rgba(14, 230, 219, 0.493); */
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(10, 10, 10);
+
+}
